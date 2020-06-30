@@ -1,0 +1,14 @@
+name: 'Copy and replace tokens'
+description: 'Copy a file and replace tokens'
+author: 'BlobDevelopment'
+inputs:
+  source:
+    description: 'Source file'
+    required: true
+  target:
+    description: 'Target file'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'index.js'
