@@ -10,7 +10,7 @@
   "author": "BlobDevelopment",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "typescript": "^3.9.5"
   },
   "devDependencies": {
