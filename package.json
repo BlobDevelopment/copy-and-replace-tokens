@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "type": "module",
   "scripts": {
-    "build": "esbuild --bundle --platform=node --outdir=lib src/index.js",
+    "build": "esbuild --bundle --platform=node --format=esm --outdir=lib src/index.js",
     "test": "TEST=Walshy node src/index.js"
   },
   "author": "BlobDevelopment",
