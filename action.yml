@@ -7,8 +7,8 @@ inputs:
     required: true
   target:
     description: 'Target file'
-    required: true
+    required: false
 
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'lib/index.js'
