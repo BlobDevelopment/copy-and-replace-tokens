@@ -16,7 +16,7 @@ function run() {
 
   for (const key of Object.keys(process.env)) {
     console.log(key + ' = ' + process.env[key]);
-    // fileAsString = fileAsString.replaceAll(`{${key}}`, process.env[key]);
+    fileAsString = fileAsString.replaceAll(`{${key}}`, process.env[key]);
   }
 
   console.log(`Wrote replacements from ${source} into ${target}`);
