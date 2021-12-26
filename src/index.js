@@ -18,7 +18,7 @@ function run() {
 
   console.log(`Wrote replacements from ${source} into ${target}`);
   writeFileSync(target, fileAsString);
-  console.log('New file:\n' + fileAsString);
+  console.log(`${target}:\n${fileAsString}`);
 }
 
 run();
