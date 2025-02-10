@@ -13,6 +13,6 @@
     "@actions/core": "^1.2.6"
   },
   "devDependencies": {
-    "esbuild": "^0.14.8"
+    "esbuild": "^0.25.0"
   }
 }
